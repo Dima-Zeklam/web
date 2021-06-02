@@ -1,20 +1,43 @@
-header div {
-  float: left;
-   margin-top: 10px;
-    margin-left: 10px;
-}
-.c1{
-background-color:	#b5b7b9;
+header{
+  color:white;
+  height: 160px;
+  background-color:	#0f2a46;
 
 }
-.s1{
+/* logo */
+header div {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.row{
+  text-align: right;
+  padding-top: 5%;
+
+}
+.img2{
+padding-top: 3%;
+}
+.img3{
+padding-top: 3%;
+}
+.par{
   color: white;
    float: left;
-   background-color: black;
-   margin-right: 400px;
-   margin-top: 0;
+   background-color: #0f2a46;
+  padding: 5%;
+  margin-top: 10px;
+    width: 60%;
+
 } 
-.img1{
+.align{
+  display: inline-block;
+}
+.p1{
+   float: left;
+}
+
+/* .img1{
   padding-left: 40px;
 margin-top:60px;
   float: right;
@@ -31,32 +54,33 @@ margin-top:300px;
 margin-top:100px;
   float: right;
   text-align: left;
-}
+} */
 header nav ul li {
   display: inline-block;
 }
 h1{
- 
+ padding-top: 40px;
   margin-top:40px;
   text-align: center;
+  font-size: 30pt;
 }
 header nav {
   margin-top: 30px;
   text-align: right;
-   margin-right: 30px;
+  margin-right: 30px;
 }
 
 header nav ul li a{
  text-decoration: none;
  margin-left: 20px;
+ color:white;
+ font-size: 14pt;
 }
-header{
-  color:white;
-  height: 130px;
-}
+
 body{
-  margin: 0%;
-  background-color:	#061e35;	 
+  margin: 2%;
+  margin-top:0%;
+  background-color:	#bed7f0;	 
 
 }
 
@@ -65,7 +89,7 @@ body{
 
 footer{
   height: 50px;
-  background-color: #b5b7b9;
+  /* background-color: #b5b7b9; */
   color:white;
    text-align: center 
 
