@@ -2,6 +2,7 @@ header{
   color:white;
   height: 160px;
   background-color:	#0f2a46;
+  /* background-image: url(' https://media.istockphoto.com/photos/abstract-grunge-dark-blue-background-picture-id1156315651?k=6&m=1156315651&s=612x612&w=0&h=54PPSVPsEfiHjL0x5tOtb0J29ATowYB_uHniVRAK9-w='); */
 
 }
 /* logo */
@@ -15,52 +16,32 @@ header div {
   padding-top: 5%;
 
 }
-.img2{
-padding-top: 3%;
-}
-.img3{
-padding-top: 3%;
-}
+
 .par{
   color: white;
    float: left;
    background-color: #0f2a46;
-  padding: 5%;
-  margin-top: 10px;
-    width: 60%;
+   
+  padding: 3%;
+  margin-top: 65px;
+    width: 55%;
+    
 
 } 
-.align{
-  display: inline-block;
-}
-.p1{
-   float: left;
+h2{
+  font-size: 24pt;
 }
 
-/* .img1{
-  padding-left: 40px;
-margin-top:60px;
-  float: right;
-    text-align: left;
+.p1{
+    font-size: 18pt;
 }
-.img2{
- 
-margin-top:300px;
-  float: right;
-    text-align: right;
-}
-.img3{
-  padding-left: 40px;
-margin-top:100px;
-  float: right;
-  text-align: left;
-} */
+
 header nav ul li {
   display: inline-block;
 }
 h1{
- padding-top: 40px;
-  margin-top:40px;
+  padding-top: 40px;
+   margin-top:40px;
   text-align: center;
   font-size: 30pt;
 }
@@ -79,21 +60,35 @@ header nav ul li a{
 
 body{
   margin: 2%;
-  margin-top:0%;
   background-color:	#bed7f0;	 
-
+  background-image: url(' https://media.istockphoto.com/photos/abstract-grunge-dark-blue-background-picture-id1156315651?k=6&m=1156315651&s=612x612&w=0&h=54PPSVPsEfiHjL0x5tOtb0J29ATowYB_uHniVRAK9-w=');
+/* https://images.all-free-download.com/images/graphicthumb/nostalgic_blue_background_03_hd_picture_169784.jpg */
 }
-
-
 
 
 footer{
-  height: 50px;
-  /* background-color: #b5b7b9; */
+  height: 180px;
+   background-color: #151616; 
   color:white;
-   text-align: center 
+   
+ margin-bottom: 0px;
+  
 
 }
 footer img{
-  margin-top: 600px;
+padding: 1%;
+  float: left;
+  margin-left: 10;
+}
+
+footer a{
+float: right;
+ padding-right: 4%;
+ padding-top: 0%;
+ color:white;
+ 
+}
+.p33{
+  text-align: center;
+ padding-top: 4%;
 }
