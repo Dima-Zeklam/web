@@ -15,4 +15,4 @@ if(color != null){
  document.getElementById("change").style.color=color;
 }
 
-
+document.write("Add some JavaScript");
