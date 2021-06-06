@@ -14,20 +14,20 @@
 
 // document.write("Add some JavaScript");
 
-var input = prompt("what is your favorite part in Taekwondo game ? poomsae, show's or fight ","poomsae , show , fight");
+var input = prompt("what is your favorite part in Taekwondo game ? poomse, show's or fight ","poomse , show , fight");
 
 
 
-while( input != "poomsae" &&  input != "show's" && input != "fight"){
- input =prompt("what is your favourit thing in Taekwondo ? poomsae, show's or fight ","Poomse , show's , fight");
+while( input != "poomse" &&  input != "show" && input != "fight"){
+ input =prompt("what is your favourit thing in Taekwondo ? poomse, show or fight ","poomse , show , fight");
 }
 
-if( input == "poomsae" ||  input == "show" || input == "fight"){
+if( input == "poomse" ||  input == "show" || input == "fight"){
   document.write(input);
    document.write("<br>");
  }
 
-var x =prompt("How mant times want to see the image ");
+var x =prompt("How many times you want to see the tkd image ?");
 
 for(var i=0;i<x;i++){
 document.write("<img src='https://i.pinimg.com/564x/ac/0b/81/ac0b81e2ba6bcceb53ba49a4074ce6ad.jpg' width='100' />");

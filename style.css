@@ -31,7 +31,9 @@ header div {
 h2{
   font-size: 24pt;
 }
-
+#d1 ,#d2,#d3{
+  font-size: 18pt;
+}
 .p1{
     font-size: 18pt;
 }
